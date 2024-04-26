@@ -36,6 +36,10 @@ header {
                         variables.$cor-primaria,
                         500
                     );
+                    &:hover {
+                        font-weight: 900;
+                        transition: 500ms;
+                    }
                 }
             }
         }
