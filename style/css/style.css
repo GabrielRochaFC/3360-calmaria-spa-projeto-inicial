@@ -213,4 +213,107 @@ header #home .img-home img {
   border: none;
 }
 
+#contatos {
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding-bottom: 5rem;
+}
+#contatos .contatos-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1.5rem;
+}
+#contatos .contatos-imgs img {
+  width: 100%;
+}
+#contatos .contatos-imgs img:first-child {
+  grid-column: span 2;
+}
+#contatos .contatos-form {
+  background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
+  padding: 2rem 3rem;
+  border: 1px solid #ffffff;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  gap: 1.5rem;
+}
+#contatos .contatos-form .titulo {
+  font-family: "Krona One", sans-serif;
+  font-size: 1.9375rem;
+  color: #4e75ff;
+  font-weight: 400;
+  margin: 0rem;
+}
+#contatos .contatos-form .infos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375rem;
+  color: #0c0421;
+  font-weight: 400;
+  line-height: 2.0625rem;
+  margin: 0rem;
+}
+#contatos .contatos-form .inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.5rem;
+}
+#contatos .contatos-form .inputs .form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+#contatos .contatos-form .inputs .form-group label {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  color: #0c0421;
+  font-weight: 600;
+}
+#contatos .contatos-form .inputs .form-group input, #contatos .contatos-form .inputs .form-group textarea {
+  border: none;
+  border-radius: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9375rem;
+  color: #0c0421;
+  font-weight: 400;
+  padding: 1rem;
+}
+#contatos .contatos-form .inputs .form-group textarea {
+  min-height: 7.5rem;
+}
+#contatos .contatos-form .inputs button {
+  background-color: #4e75ff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.375rem;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 1.5rem 0rem;
+  border-radius: 2.5rem;
+  border: none;
+}
+#contatos .contatos-form .inputs button:hover {
+  cursor: pointer;
+  background-color: #85a0ff;
+  transition: 500ms;
+}
+
+footer {
+  background-color: #e8f5c8;
+  padding: 1.5rem 0rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9375rem;
+  color: #0c0421;
+  font-weight: 400;
+}
+
 /*# sourceMappingURL=style.css.map */
