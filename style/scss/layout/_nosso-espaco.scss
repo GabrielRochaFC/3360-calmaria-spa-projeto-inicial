@@ -7,7 +7,7 @@
     .detalhes {
         @include mixins.display-flex(row, space-around, center);
         gap: 2rem;
-        padding: 2rem 0;
+        padding: 3rem 0;
 
         .imgs-espaco {
             width: 31.25rem;
